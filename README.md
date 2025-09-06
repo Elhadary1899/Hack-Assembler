@@ -19,12 +19,12 @@ This project translates Hack assembly language (`.asm`) programs into 16-bit bin
 ## 📂 Project Structure
 ├── Main.java # Entry point, assembles given .asm files <br>
 ├── Assembler.java # Core assembler logic </br>
-├── Parser.java # Cleans input, parses commands
-├── Instruction_Category.java # Enum for A, C, and LABEL instructions
-├── Code.java # Converts mnemonics to binary codes
-├── SymbolTable.java # Handles predefined + user-defined symbols
-├── *.asm # Example Hack assembly programs
-└── *.hack # Generated binary machine code
+├── Parser.java # Cleans input, parses commands</br>
+├── Instruction_Category.java # Enum for A, C, and LABEL instructions</br>
+├── Code.java # Converts mnemonics to binary codes</br>
+├── SymbolTable.java # Handles predefined + user-defined symbols</br>
+├── *.asm # Example Hack assembly programs</br>
+└── *.hack # Generated binary machine code</br>
 
 ---
 
