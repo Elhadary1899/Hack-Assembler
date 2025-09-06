@@ -28,19 +28,16 @@ This project translates Hack assembly language (`.asm`) programs into 16-bit bin
 
 ---
 
-
----
-
 ## ⚙️ How It Works
-1. **First Pass**  
+1. **Cleaning the Code**
+   - Cleans the input file from any whitespaces or comments.
+2. **First Pass**  
    - Reads the assembly file and records all labels `(LABEL)` with their corresponding ROM addresses in the symbol table.  
-
-2. **Second Pass**  
+3. **Second Pass**
    - Translates instructions line by line:
      - `@value` → **A-instruction** (direct address or symbol lookup).  
      - `dest=comp;jump` → **C-instruction** (binary translation of `comp`, `dest`, and `jump`).  
-
-3. **Output**  
+4. **Output**  
    - Writes a `.hack` file containing the 16-bit binary machine code.
-
+  
 ---
