@@ -17,8 +17,8 @@ This project translates Hack assembly language (`.asm`) programs into 16-bit bin
 ---
 
 ## 📂 Project Structure
-├── Main.java # Entry point, assembles given .asm files
-├── Assembler.java # Core assembler logic
+├── Main.java # Entry point, assembles given .asm files <br>
+├── Assembler.java # Core assembler logic </br>
 ├── Parser.java # Cleans input, parses commands
 ├── Instruction_Category.java # Enum for A, C, and LABEL instructions
 ├── Code.java # Converts mnemonics to binary codes
